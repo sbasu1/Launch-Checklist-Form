@@ -120,11 +120,11 @@ function init(){
 
 
 
-			pilotStatusLi.innerHTML = pilotName+" "+pilotStatusLi.innerHTML;
+			pilotStatusLi.innerHTML = pilotName+" Pilot ready ";
 
 		
 
-		copilotStatusLi.innerHTML = coPilotName+" "+copilotStatusLi.innerHTML;
+		copilotStatusLi.innerHTML = coPilotName+"  Co-pilot Ready";
 
 		let isError=false;
 
