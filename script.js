@@ -82,9 +82,9 @@ function init(){
 
 
 
-		if(pilotName === '' || coPilotName === '' || fuelLevel === '' || isNaN(fuelLevel) 
+		if(pilotName === '' || coPilotName === '' || fuelLevel === '' 
 
-				|| cargoMass === '' || isNaN(cargoMass)){
+				|| cargoMass === '' ){
 
 			alert('All fields are mandetory. Please provide mandetory values');
 
