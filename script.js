@@ -90,6 +90,10 @@ function init(){
 
 			return;
 
+		}else{
+			if(isNaN(fuelLevel) || isNaN(cargoMass)){
+				alert('Make sure to enter valid information for each field')
+			}
 		}
 
 
